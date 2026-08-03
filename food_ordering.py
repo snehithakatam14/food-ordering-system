@@ -1,6 +1,6 @@
 import os
 
-# GLOBAL DATA
+# Global Data
 
 OWNER_USERNAME = "admin"
 OWNER_PASSWORD = "admin123"
