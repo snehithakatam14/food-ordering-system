@@ -13,7 +13,7 @@ order_list = []
 
 current_user = None
 
-# UTILITY FUNCTIONS
+# Utility Functions
 
 def clear_screen():
     os.system('cls' if os.name == 'nt' else 'clear')
@@ -39,9 +39,9 @@ def generate_order_id():
     return len(order_list) + 1001
 
 
-# ==========================================
-# USER AUTHENTICATION
-# ==========================================
+
+# User Auth Functions
+
 
 def register_user():
 
@@ -105,9 +105,9 @@ def login_user():
     return False
 
 
-# ==========================================
-# OWNER LOGIN
-# ==========================================
+
+# Owner Login Function
+
 
 def owner_login():
 
@@ -133,9 +133,9 @@ def owner_login():
         pause()
 
 
-# ==========================================
-# OWNER PANEL
-# ==========================================
+
+# Owner Panel
+
 
 def owner_panel():
 
@@ -187,9 +187,8 @@ def owner_panel():
             pause()
 
 
-# ==========================================
-# USER PANEL
-# ==========================================
+# User Panel
+
 
 def user_panel():
 
@@ -224,9 +223,7 @@ def user_panel():
             pause()
 
 
-# ==========================================
-# USER DASHBOARD
-# ==========================================
+# User Dashboard
 
 def user_dashboard():
 
@@ -286,10 +283,7 @@ def user_dashboard():
             break
 
 
-# ==========================================
-# PLACEHOLDER FUNCTIONS
-# (Will be implemented in later parts)
-# ==========================================
+# Owner Dashboard Functions
 
 def dashboard():
 
@@ -1295,9 +1289,7 @@ def order_history():
     pause()
 
 
-# ==========================================
-# MAIN MENU
-# ==========================================
+# Main Menu
 
 def main():
 
@@ -1329,8 +1321,5 @@ def main():
             pause()
 
 
-# ==========================================
-# PROGRAM STARTS HERE
-# ==========================================
 
 main()
